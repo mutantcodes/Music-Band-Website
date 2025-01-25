@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Harmony - Official Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c665f4;
+            padding-top: 125px; 
+        }
+
+        html {
+            scroll-behavior: smooth; 
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #333;
+            color: #fff;
+            padding: 5px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+            background-color: #fff;
+        }
+
+        section {
+            padding: 20px;
+            margin: 60px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            scroll-margin-top: 100px; 
+        }
+
+        #music {
+            position: relative;
+        }
+
+        #bio {
+            margin-top: 50px;
+        }
+
+        .band-photo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 31%;
+            margin: 1%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pearl Harmony</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="bio">
+        <h2>About Us</h2>
+        <p>Pearl Harmony is a contemporary musical band known for its rich blend of soulful melodies and dynamic instrumentation. The group draws inspiration from a fusion of genres, including jazz, pop, soft rock, and world music, creating a signature sound that resonates with a diverse audience. 
+            Formed by a group of passionate musicians with a shared vision for creating music that inspires and connects, Pearl Harmony focuses on themes of unity, love, and self-expression. Their name reflects their ethos: “Pearl” symbolizes purity and uniqueness, while “Harmony” represents their commitment to creating music that brings people together.
+            The band is distinguished by their seamless vocal harmonies, intricate arrangements, and emotionally evocative performances. Whether performing acoustic sets or full-stage productions, Pearl Harmony is celebrated for their ability to create an intimate yet powerful experience for their listeners. 
+            With a growing fanbase and an impressive repertoire of original songs, Pearl Harmony is becoming a name to watch in the modern music scene. Their dedication to authenticity and artistry makes them stand out in an industry constantly in flux.</p>
+        <img src="musicalband.jpg" alt="Band Photo" class="band-photo">
+    </section>
+
+   
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>March 15, 2025 - Live at The Rock Club, New York</li>
+            <li>April 20, 2025 - Music Festival, Los Angeles</li>
+            <li>May 10, 2025 - Charity Concert, Chicago</li>
+            <li>May 25, 2025 - New Orleans Jazz Fest</li>
+            <li>june 15, 2025 - Raag Rang Flavours of Music </li>
+        </ul>
+    </section>
+
+    <section id="music">
+        <h2>Listen to Our Music</h2>
+        <audio controls >
+            <source src="Track1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <audio controls>
+            <source src="Track2.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="performance1.jpg" alt="Performance 1">
+            <img src="performance2.jpg" alt="Performance 2">
+            <img src="performance3.jpg" alt="Performance 3">
+            <img src="performance4.jpg" alt="Performance 4">
+            <img src="performance5.jpg" alt="performance 5">
+            <img src="performance6.jpg" alt="performance 6">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pearl Harmony. All rights reserved.</p>
+    </footer>
+</body>
+</html>
